@@ -1,7 +1,8 @@
 import sys
-sys.path.append(",")
+sys.path.append(".")
 
 import pytest
+
 from src.burakumutyenilmez import statistics
 
 def test_mean():
